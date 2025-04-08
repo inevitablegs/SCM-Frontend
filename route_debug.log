@@ -7396,3 +7396,69 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 391: '
 2025-04-09 01:03:09,488 - WARNING - Not Found: /api/placeholder/600/400
 2025-04-09 01:03:13,817 - WARNING - Not Found: /api/placeholder/600/400
 >>>>>>> 89213bf40382f785294bdd1b756b275570c5be64
+2025-04-09 01:14:34,536 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:15:38,961 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:15:46,092 - WARNING - Not Found: /api/placeholder/300/300
+2025-04-09 01:15:50,646 - WARNING - Not Found: /api/placeholder/300/300
+2025-04-09 01:16:56,886 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-09 01:16:56,886 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-09 01:16:56,886 - INFO - Geocoder initialized successfully
+2025-04-09 01:16:56,886 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Nashik%2C+Maharashtra&format=json&limit=1
+2025-04-09 01:16:56,887 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-04-09 01:16:57,701 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-09 01:16:57,701 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-09 01:16:57,701 - INFO - Geocoder initialized successfully
+2025-04-09 01:16:57,702 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Nashik%2C+Maharashtra&format=json&limit=1
+2025-04-09 01:16:57,702 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-04-09 01:16:57,846 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Nashik%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 440
+2025-04-09 01:16:57,846 - DEBUG - RateLimiter sleep(0.03990989999147132)
+2025-04-09 01:16:57,887 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Pune%2C+Maharashtra&format=json&limit=1
+2025-04-09 01:16:58,897 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Pune%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 436
+2025-04-09 01:16:58,898 - DEBUG - Starting new HTTPS connection (1): api.openrouteservice.org:443
+2025-04-09 01:16:59,498 - DEBUG - https://api.openrouteservice.org:443 "POST /v2/directions/driving-car HTTP/11" 200 None
+2025-04-09 01:16:59,837 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Nashik%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 440
+2025-04-09 01:16:59,838 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Pune%2C+Maharashtra&format=json&limit=1
+2025-04-09 01:17:00,912 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Pune%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 436
+2025-04-09 01:17:00,915 - DEBUG - Starting new HTTPS connection (1): api.openrouteservice.org:443
+2025-04-09 01:17:01,526 - DEBUG - https://api.openrouteservice.org:443 "POST /v2/directions/driving-car HTTP/11" 200 None
+2025-04-09 01:17:30,475 - DEBUG - connect_tcp.started host='api.phidata.com' port=443 local_address=None timeout=60 socket_options=None
+2025-04-09 01:17:30,859 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000023E9CDFE180>
+2025-04-09 01:17:30,859 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000023E9C634150> server_hostname='api.phidata.com' timeout=60
+2025-04-09 01:17:31,408 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000023E9CDFE120>
+2025-04-09 01:17:31,409 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 01:17:31,410 - DEBUG - send_request_headers.complete
+2025-04-09 01:17:31,410 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 01:17:31,411 - DEBUG - send_request_body.complete
+2025-04-09 01:17:31,411 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 01:17:31,701 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 08 Apr 2025 19:47:30 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'72'), (b'Connection', b'keep-alive'), (b'server', b'uvicorn')])
+2025-04-09 01:17:31,702 - INFO - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-09 01:17:31,702 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-09 01:17:31,702 - DEBUG - receive_response_body.complete
+2025-04-09 01:17:31,702 - DEBUG - response_closed.started
+2025-04-09 01:17:31,703 - DEBUG - response_closed.complete
+2025-04-09 01:17:31,703 - DEBUG - close.started
+2025-04-09 01:17:31,703 - DEBUG - close.complete
+2025-04-09 01:17:58,905 - DEBUG - connect_tcp.started host='api.phidata.com' port=443 local_address=None timeout=60 socket_options=None
+2025-04-09 01:17:59,170 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000023E9C67AF30>
+2025-04-09 01:17:59,170 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000023EFEE85050> server_hostname='api.phidata.com' timeout=60
+2025-04-09 01:17:59,709 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000023E9C6781A0>
+2025-04-09 01:17:59,709 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 01:17:59,710 - DEBUG - send_request_headers.complete
+2025-04-09 01:17:59,710 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 01:17:59,710 - DEBUG - send_request_body.complete
+2025-04-09 01:17:59,710 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 01:17:59,987 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 08 Apr 2025 19:47:58 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'72'), (b'Connection', b'keep-alive'), (b'server', b'uvicorn')])
+2025-04-09 01:17:59,987 - INFO - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-09 01:17:59,987 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-09 01:17:59,988 - DEBUG - receive_response_body.complete
+2025-04-09 01:17:59,988 - DEBUG - response_closed.started
+2025-04-09 01:17:59,988 - DEBUG - response_closed.complete
+2025-04-09 01:17:59,988 - DEBUG - close.started
+2025-04-09 01:17:59,988 - DEBUG - close.complete
+2025-04-09 01:20:21,724 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:20:25,269 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:20:27,512 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:39:00,961 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:39:08,472 - WARNING - Not Found: /api/placeholder/300/300
+2025-04-09 01:47:12,258 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:48:11,774 - WARNING - Not Found: /api/placeholder/600/400
