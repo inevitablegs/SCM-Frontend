@@ -7221,6 +7221,7 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'submit_feedback' not found. 
 2025-04-08 22:39:42,746 - WARNING - Not Found: /favicon.ico
 2025-04-08 22:56:51,787 - WARNING - Not Found: /api/placeholder/600/400
 2025-04-08 22:57:04,533 - WARNING - Not Found: /api/placeholder/600/400
+<<<<<<< HEAD
 2025-04-08 23:06:15,850 - WARNING - Not Found: /api/placeholder/600/400
 2025-04-08 23:19:52,537 - WARNING - Forbidden (CSRF token from POST incorrect.): /manufacturer/login/
 2025-04-08 23:21:52,519 - DEBUG - connect_tcp.started host='api.phidata.com' port=443 local_address=None timeout=60 socket_options=None
@@ -7376,3 +7377,22 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 391: '
 2025-04-09 00:30:58,353 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Pune%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 436
 2025-04-09 00:30:58,355 - DEBUG - Starting new HTTPS connection (1): api.openrouteservice.org:443
 2025-04-09 00:30:59,066 - DEBUG - https://api.openrouteservice.org:443 "POST /v2/directions/driving-car HTTP/11" 200 None
+=======
+2025-04-09 00:12:13,411 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:12:14,221 - WARNING - Not Found: /favicon.ico
+2025-04-09 00:29:07,304 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:30:07,988 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:33:52,720 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:39:09,113 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:43:20,061 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:43:20,932 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:45:23,977 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:53:50,636 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:55:07,387 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:55:08,890 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:58:18,849 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:58:33,308 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:59:16,678 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:03:09,488 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:03:13,817 - WARNING - Not Found: /api/placeholder/600/400
+>>>>>>> 89213bf40382f785294bdd1b756b275570c5be64
