@@ -7221,4 +7221,182 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'submit_feedback' not found. 
 2025-04-08 22:39:42,746 - WARNING - Not Found: /favicon.ico
 2025-04-08 22:56:51,787 - WARNING - Not Found: /api/placeholder/600/400
 2025-04-08 22:57:04,533 - WARNING - Not Found: /api/placeholder/600/400
+<<<<<<< HEAD
 2025-04-08 23:08:43,299 - WARNING - Not Found: /api/placeholder/600/400
+=======
+<<<<<<< HEAD
+2025-04-08 23:06:15,850 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-08 23:19:52,537 - WARNING - Forbidden (CSRF token from POST incorrect.): /manufacturer/login/
+2025-04-08 23:21:52,519 - DEBUG - connect_tcp.started host='api.phidata.com' port=443 local_address=None timeout=60 socket_options=None
+2025-04-08 23:21:52,818 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000145109C1DF0>
+2025-04-08 23:21:52,818 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000145109786D0> server_hostname='api.phidata.com' timeout=60
+2025-04-08 23:21:53,281 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000145109C1D00>
+2025-04-08 23:21:53,281 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-08 23:21:53,282 - DEBUG - send_request_headers.complete
+2025-04-08 23:21:53,282 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-08 23:21:53,282 - DEBUG - send_request_body.complete
+2025-04-08 23:21:53,283 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-08 23:21:53,504 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 08 Apr 2025 17:51:52 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'72'), (b'Connection', b'keep-alive'), (b'server', b'uvicorn')])
+2025-04-08 23:21:53,505 - INFO - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-08 23:21:53,505 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-08 23:21:53,506 - DEBUG - receive_response_body.complete
+2025-04-08 23:21:53,506 - DEBUG - response_closed.started
+2025-04-08 23:21:53,506 - DEBUG - response_closed.complete
+2025-04-08 23:21:53,506 - DEBUG - close.started
+2025-04-08 23:21:53,507 - DEBUG - close.complete
+2025-04-08 23:23:10,094 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-08 23:23:10,094 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-08 23:23:10,095 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Manglore%2C+Karnataka&format=json&limit=1
+2025-04-08 23:23:10,096 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-04-08 23:23:10,927 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Manglore%2C+Karnataka&format=json&limit=1 HTTP/11" 200 550
+2025-04-08 23:23:10,928 - DEBUG - RateLimiter sleep(0.16601810000429396)
+2025-04-08 23:23:11,096 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Pune%2C+Maharashtra&format=json&limit=1
+2025-04-08 23:23:12,020 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Pune%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 436
+2025-04-08 23:23:12,022 - DEBUG - Starting new HTTPS connection (1): api.openrouteservice.org:443
+2025-04-08 23:23:12,818 - DEBUG - https://api.openrouteservice.org:443 "POST /v2/directions/driving-car HTTP/11" 200 None
+2025-04-08 23:26:33,390 - WARNING - Forbidden (CSRF token from POST incorrect.): /manufacturer/login/
+2025-04-08 23:27:41,396 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-08 23:30:25,112 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-08 23:30:25,112 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-08 23:30:25,113 - INFO - Geocoder initialized successfully
+2025-04-08 23:30:25,113 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Nashik%2C+Maharashtra&format=json&limit=1
+2025-04-08 23:30:25,114 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-04-08 23:30:26,004 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Nashik%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 440
+2025-04-08 23:30:26,005 - DEBUG - RateLimiter sleep(0.10812249999435153)
+2025-04-08 23:30:26,114 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Pune%2C+Maharashtra&format=json&limit=1
+2025-04-08 23:30:27,121 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Pune%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 436
+2025-04-08 23:30:27,122 - DEBUG - Starting new HTTPS connection (1): api.openrouteservice.org:443
+2025-04-08 23:30:27,765 - DEBUG - https://api.openrouteservice.org:443 "POST /v2/directions/driving-car HTTP/11" 200 None
+2025-04-08 23:30:47,742 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-08 23:32:46,873 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-08 23:33:38,188 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-08 23:33:38,188 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-08 23:33:38,189 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Nashik%2C+Maharashtra&format=json&limit=1
+2025-04-08 23:33:38,189 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-04-08 23:33:38,686 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Nashik%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 440
+2025-04-08 23:33:38,686 - DEBUG - RateLimiter sleep(0.5025033999991138)
+2025-04-08 23:33:39,190 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Pune%2C+Maharashtra&format=json&limit=1
+2025-04-08 23:33:39,750 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Pune%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 436
+2025-04-08 23:33:39,751 - DEBUG - Starting new HTTPS connection (1): api.openrouteservice.org:443
+2025-04-08 23:33:40,352 - DEBUG - https://api.openrouteservice.org:443 "POST /v2/directions/driving-car HTTP/11" 200 None
+2025-04-08 23:34:10,518 - DEBUG - connect_tcp.started host='api.phidata.com' port=443 local_address=None timeout=60 socket_options=None
+2025-04-08 23:34:10,852 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014510AE63F0>
+2025-04-08 23:34:10,852 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000014510F6FC50> server_hostname='api.phidata.com' timeout=60
+2025-04-08 23:34:11,312 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014510AEE9F0>
+2025-04-08 23:34:11,312 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-08 23:34:11,313 - DEBUG - send_request_headers.complete
+2025-04-08 23:34:11,313 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-08 23:34:11,313 - DEBUG - send_request_body.complete
+2025-04-08 23:34:11,313 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-08 23:34:11,541 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 08 Apr 2025 18:04:10 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'72'), (b'Connection', b'keep-alive'), (b'server', b'uvicorn')])
+2025-04-08 23:34:11,541 - INFO - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-08 23:34:11,542 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-08 23:34:11,542 - DEBUG - receive_response_body.complete
+2025-04-08 23:34:11,542 - DEBUG - response_closed.started
+2025-04-08 23:34:11,542 - DEBUG - response_closed.complete
+2025-04-08 23:34:11,543 - DEBUG - close.started
+2025-04-08 23:34:11,543 - DEBUG - close.complete
+2025-04-08 23:40:15,252 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:27:33,205 - DEBUG - connect_tcp.started host='api.phidata.com' port=443 local_address=None timeout=60 socket_options=None
+2025-04-09 00:27:33,520 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014510CCCC20>
+2025-04-09 00:27:33,520 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000145111B2A50> server_hostname='api.phidata.com' timeout=60
+2025-04-09 00:27:33,958 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000014510CCFBC0>
+2025-04-09 00:27:33,958 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-04-09 00:27:33,959 - DEBUG - send_request_headers.complete
+2025-04-09 00:27:33,959 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-04-09 00:27:33,960 - DEBUG - send_request_body.complete
+2025-04-09 00:27:33,960 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-04-09 00:27:34,174 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Tue, 08 Apr 2025 18:57:32 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'72'), (b'Connection', b'keep-alive'), (b'server', b'uvicorn')])
+2025-04-09 00:27:34,175 - INFO - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-04-09 00:27:34,175 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-04-09 00:27:34,175 - DEBUG - receive_response_body.complete
+2025-04-09 00:27:34,175 - DEBUG - response_closed.started
+2025-04-09 00:27:34,176 - DEBUG - response_closed.complete
+2025-04-09 00:27:34,176 - DEBUG - close.started
+2025-04-09 00:27:34,176 - DEBUG - close.complete
+2025-04-09 00:28:04,341 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:29:30,108 - ERROR - Internal Server Error: /supplier/bid/12/
+Traceback (most recent call last):
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\OneDrive\Desktop\HTF-I01-main\supplier\views.py", line 226, in submit_bid
+    return render(request, 'supplier/submit_bid.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Ganesh\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\template\base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 391: 'static'. Did you forget to register or load this tag?
+2025-04-09 00:30:56,431 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-09 00:30:56,431 - DEBUG - Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2025-04-09 00:30:56,432 - INFO - Geocoder initialized successfully
+2025-04-09 00:30:56,432 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Nashik%2C+Maharashtra&format=json&limit=1
+2025-04-09 00:30:56,433 - DEBUG - Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2025-04-09 00:30:57,316 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Nashik%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 440
+2025-04-09 00:30:57,317 - DEBUG - RateLimiter sleep(0.1151737000036519)
+2025-04-09 00:30:57,432 - DEBUG - Nominatim.geocode: https://nominatim.openstreetmap.org/search?q=Pune%2C+Maharashtra&format=json&limit=1
+2025-04-09 00:30:58,353 - DEBUG - https://nominatim.openstreetmap.org:443 "GET /search?q=Pune%2C+Maharashtra&format=json&limit=1 HTTP/11" 200 436
+2025-04-09 00:30:58,355 - DEBUG - Starting new HTTPS connection (1): api.openrouteservice.org:443
+2025-04-09 00:30:59,066 - DEBUG - https://api.openrouteservice.org:443 "POST /v2/directions/driving-car HTTP/11" 200 None
+=======
+2025-04-09 00:12:13,411 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:12:14,221 - WARNING - Not Found: /favicon.ico
+2025-04-09 00:29:07,304 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:30:07,988 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:33:52,720 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:39:09,113 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:43:20,061 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:43:20,932 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:45:23,977 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:53:50,636 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:55:07,387 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:55:08,890 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:58:18,849 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:58:33,308 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 00:59:16,678 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:03:09,488 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:03:13,817 - WARNING - Not Found: /api/placeholder/600/400
+>>>>>>> 89213bf40382f785294bdd1b756b275570c5be64
+>>>>>>> 70841244f076774a32aa8dbe9de412632986a15d
