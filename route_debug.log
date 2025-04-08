@@ -7400,3 +7400,26 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 391: '
 2025-04-09 01:03:13,817 - WARNING - Not Found: /api/placeholder/600/400
 >>>>>>> 89213bf40382f785294bdd1b756b275570c5be64
 >>>>>>> 70841244f076774a32aa8dbe9de412632986a15d
+2025-04-09 01:14:42,370 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:18:11,107 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:29:18,756 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:30:48,834 - ERROR - Internal Server Error: /manufacturer/request-quote/
+Traceback (most recent call last):
+  File "C:\Users\IQRA\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IQRA\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Downloads\HTF-I01-main\SCM-Frontend\manufacturer\views.py", line 215, in request_quote
+    manufacturer = Manufacturer.objects.get(user=request.user)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IQRA\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\IQRA\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+manufacturer.models.Manufacturer.DoesNotExist: Manufacturer matching query does not exist.
+2025-04-09 01:30:53,225 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:39:26,943 - WARNING - Not Found: /api/placeholder/600/400
+2025-04-09 01:39:30,870 - WARNING - Not Found: /api/placeholder/300/300
